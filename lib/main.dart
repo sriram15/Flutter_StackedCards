@@ -108,7 +108,7 @@ class _CardStackState extends State<CardStack>
       duration: Duration(milliseconds: 150),
     );
     curvedAnimation =
-        CurvedAnimation(parent: controller, curve: Curves.bounceInOut);
+        CurvedAnimation(parent: controller, curve: Curves.easeOut);
 
     _translationAnim = Tween(begin: Offset(0.0, 0.0), end: Offset(-1000.0, 0.0))
         .animate(controller)
@@ -177,7 +177,6 @@ class _CardStackState extends State<CardStack>
 
   void _horizontalDragEnd(DragEndDetails details) {
     if (details.primaryVelocity < 0) {
-
       // Swiped Right to Left
       controller.forward().whenComplete(() {
         setState(() {
