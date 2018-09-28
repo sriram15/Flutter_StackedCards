@@ -1,8 +1,9 @@
-# card_stack
+# Flutter Stacked Cards
 
-A new Flutter project.
+![recording](recording.gif)
 
-## Getting Started
+## Design
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Design by Ramakrishna V.(https://dribbble.com/shots/2213832-Principle-Wander-Travel-App)
+
+This is an implemenation of the design and creating animations. If you want to learn more follow my blog post in Medium
